@@ -381,6 +381,9 @@ export interface ApiProductProduct extends Schema.CollectionType {
     image: Attribute.Media & Attribute.Required;
     type: Attribute.String & Attribute.Required;
     color: Attribute.String & Attribute.Required;
+    Slug: Attribute.String & Attribute.Required;
+    title: Attribute.String & Attribute.Required;
+    stock: Attribute.BigInteger & Attribute.Required & Attribute.DefaultTo<'1'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

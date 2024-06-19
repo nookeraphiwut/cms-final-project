@@ -46,6 +46,19 @@
     "color": {
       "type": "string",
       "required": true
+    },
+    "Slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "stock": {
+      "type": "biginteger",
+      "required": true,
+      "default": "1"
     }
   }
 }
